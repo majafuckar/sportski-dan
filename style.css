@@ -1,0 +1,433 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #111111;
+}
+
+
+/* =========================
+   NAVIGACIJA
+   ========================= */
+
+.navbar {
+    width: 100%;
+    padding: 20px 5%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #111111;
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.nav-button {
+    background: #00d26a;
+    color: #111111;
+
+    text-decoration: none;
+
+    padding: 12px 18px;
+    border-radius: 6px;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+    min-height: calc(100vh - 70px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+.hero-label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(48px, 10vw, 110px);
+
+    line-height: 0.95;
+
+    font-weight: 900;
+
+    letter-spacing: -4px;
+
+    max-width: 1000px;
+}
+
+.hero-info {
+    margin-top: 30px;
+
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.hero-sports {
+    margin-top: 15px;
+
+    font-size: 16px;
+
+    color: #555555;
+}
+
+
+/* =========================
+   GLAVNI GUMB
+   ========================= */
+
+.main-button {
+    margin-top: 35px;
+
+    display: inline-block;
+
+    background: #00d26a;
+    color: #111111;
+
+    text-decoration: none;
+
+    padding: 17px 32px;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+    font-weight: 800;
+
+    transition: transform 0.2s ease;
+}
+
+.main-button:hover {
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   BRZE INFORMACIJE
+   ========================= */
+
+.info-section {
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+
+    padding: 40px 0 80px;
+}
+
+.info-card {
+    background: #f3f3f3;
+
+    padding: 25px 20px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.info-card span {
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+
+    color: #666666;
+}
+
+.info-card strong {
+    font-size: 20px;
+
+    font-weight: 800;
+}
+
+
+/* =========================
+   SPORTOVI
+   ========================= */
+
+.sports-section {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 80px 0;
+}
+
+.section-heading {
+    margin-bottom: 35px;
+}
+
+.section-label {
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    color: #666666;
+
+    margin-bottom: 10px;
+}
+
+.section-heading h2 {
+    font-size: clamp(32px, 6vw, 60px);
+
+    line-height: 1;
+
+    font-weight: 900;
+
+    letter-spacing: -2px;
+}
+
+
+/* =========================
+   KARTICE SPORTOVA
+   ========================= */
+
+.sports-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+.sport-card {
+    background: #f3f3f3;
+
+    border-radius: 12px;
+
+    padding: 30px;
+
+    min-height: 280px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sport-number {
+    font-size: 13px;
+
+    font-weight: 800;
+
+    color: #666666;
+
+    letter-spacing: 1px;
+}
+
+.sport-card h3 {
+    margin-top: 55px;
+
+    font-size: 32px;
+
+    font-weight: 900;
+
+    letter-spacing: -1px;
+}
+
+.sport-card p {
+    margin-top: 15px;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    color: #555555;
+
+    max-width: 300px;
+}
+
+.sport-card strong {
+    margin-top: auto;
+
+    padding-top: 25px;
+
+    font-size: 13px;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   PRIJAVA
+   ========================= */
+
+.registration-section {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 80px 0;
+}
+
+.registration-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+.registration-card {
+    background: #111111;
+    color: #ffffff;
+
+    border-radius: 12px;
+
+    padding: 30px;
+
+    min-height: 330px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-card .sport-number {
+    color: #aaaaaa;
+}
+
+.registration-card h3 {
+    margin-top: 55px;
+
+    font-size: 32px;
+
+    font-weight: 900;
+
+    letter-spacing: -1px;
+}
+
+.registration-card p {
+    margin-top: 15px;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    color: #cccccc;
+
+    max-width: 300px;
+}
+
+.registration-button {
+    margin-top: auto;
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+    border-radius: 7px;
+
+    background: #00d26a;
+    color: #111111;
+
+    font-size: 14px;
+    font-weight: 800;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease;
+}
+
+.registration-button:hover {
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   MOBITEL
+   ========================= */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        padding: 18px 5%;
+    }
+
+    .hero {
+        min-height: calc(100vh - 65px);
+
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: clamp(52px, 16vw, 80px);
+
+        letter-spacing: -3px;
+    }
+
+    .hero-info {
+        font-size: 19px;
+    }
+
+    .info-section {
+        grid-template-columns: 1fr;
+
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .sports-section {
+        padding: 60px 0;
+    }
+
+    .sports-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sport-card {
+        min-height: 240px;
+    }
+
+    .registration-section {
+        padding: 60px 0;
+    }
+
+    .registration-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .registration-card {
+        min-height: 300px;
+    }
+
+}
