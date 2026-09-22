@@ -79,6 +79,8 @@ body {
    ========================= */
 
 .hero-organizer {
+    display: block;
+
     margin-bottom: 20px;
 
     font-size: 14px;
@@ -432,11 +434,16 @@ body {
     }
 
     .hero-organizer {
-        font-size: 12px;
+        display: block;
+
+        margin-bottom: 18px;
+
+        font-size: 13px;
+        font-weight: 900;
 
         letter-spacing: 1px;
 
-        margin-bottom: 18px;
+        color: #111111;
     }
 
     .hero h1 {
@@ -489,4 +496,3 @@ body {
     }
 
 }
-
