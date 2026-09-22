@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -69,8 +70,38 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
 
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   RAZRED
+   ========================= */
+
+.hero-class {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #111111;
+    color: #ffffff;
+
+    padding: 7px 14px;
+
+    border-radius: 50px;
+
+    font-size: 14px;
+    font-weight: 900;
+
+    letter-spacing: 1.5px;
+
     margin-bottom: 20px;
 }
+
+
+/* =========================
+   NASLOV
+   ========================= */
 
 .hero h1 {
     font-size: clamp(48px, 10vw, 110px);
@@ -84,8 +115,30 @@ body {
     max-width: 1000px;
 }
 
+
+/* =========================
+   SLOGAN
+   ========================= */
+
+.hero-slogan {
+    margin-top: 18px;
+
+    font-size: clamp(18px, 3vw, 26px);
+
+    font-weight: 900;
+
+    letter-spacing: 3px;
+
+    color: #00a854;
+}
+
+
+/* =========================
+   DATUM I SPORTOVI
+   ========================= */
+
 .hero-info {
-    margin-top: 30px;
+    margin-top: 28px;
 
     font-size: 22px;
     font-weight: 700;
@@ -275,7 +328,7 @@ body {
     max-width: 300px;
 }
 
-.sport-card strong {
+.sport-card > strong {
     margin-top: auto;
 
     padding-top: 25px;
@@ -287,89 +340,43 @@ body {
 
 
 /* =========================
-   PRIJAVA
+   UTRKA
    ========================= */
 
-.registration-section {
-    width: 90%;
-    max-width: 1100px;
-
-    margin: 0 auto;
-
-    padding: 80px 0;
+.race-card {
+    min-height: 400px;
 }
 
-.registration-grid {
-    display: grid;
+.race-details {
+    margin-top: auto;
 
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 18px;
-}
-
-.registration-card {
-    background: #111111;
-    color: #ffffff;
-
-    border-radius: 12px;
-
-    padding: 30px;
-
-    min-height: 330px;
+    padding-top: 25px;
 
     display: flex;
     flex-direction: column;
+
+    gap: 14px;
 }
 
-.registration-card .sport-number {
-    color: #aaaaaa;
+.race-details div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
 }
 
-.registration-card h3 {
-    margin-top: 55px;
+.race-details strong {
+    font-size: 12px;
 
-    font-size: 32px;
-
-    font-weight: 900;
-
-    letter-spacing: -1px;
+    letter-spacing: 1px;
 }
 
-.registration-card p {
-    margin-top: 15px;
-
-    font-size: 15px;
-
-    line-height: 1.5;
-
-    color: #cccccc;
-
-    max-width: 300px;
-}
-
-.registration-button {
-    margin-top: auto;
-
-    width: 100%;
-
-    padding: 15px;
-
-    border: none;
-    border-radius: 7px;
-
-    background: #00d26a;
-    color: #111111;
-
+.race-details span {
     font-size: 14px;
-    font-weight: 800;
 
-    cursor: pointer;
+    line-height: 1.4;
 
-    transition: transform 0.2s ease;
-}
-
-.registration-button:hover {
-    transform: translateY(-2px);
+    color: #555555;
 }
 
 
@@ -389,10 +396,34 @@ body {
         padding: 40px 20px;
     }
 
+    .hero-label {
+        font-size: 12px;
+
+        letter-spacing: 1.5px;
+
+        margin-bottom: 10px;
+    }
+
+    .hero-class {
+        font-size: 13px;
+
+        padding: 6px 13px;
+
+        margin-bottom: 18px;
+    }
+
     .hero h1 {
         font-size: clamp(52px, 16vw, 80px);
 
         letter-spacing: -3px;
+    }
+
+    .hero-slogan {
+        font-size: 18px;
+
+        letter-spacing: 2px;
+
+        margin-top: 15px;
     }
 
     .hero-info {
@@ -418,16 +449,16 @@ body {
         min-height: 240px;
     }
 
-    .registration-section {
-        padding: 60px 0;
+    .race-card {
+        min-height: 430px;
     }
 
-    .registration-grid {
-        grid-template-columns: 1fr;
+    .race-details {
+        gap: 16px;
     }
 
-    .registration-card {
-        min-height: 300px;
+    .race-details span {
+        font-size: 14px;
     }
 
 }
