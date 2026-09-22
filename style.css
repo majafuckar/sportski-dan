@@ -340,11 +340,47 @@ body {
 
 
 /* =========================
+   KOTIZACIJA
+   ========================= */
+
+.entry-fee {
+    margin-top: 20px;
+
+    padding-top: 18px;
+
+    border-top: 1px solid #d8d8d8;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+.entry-fee span {
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.5px;
+
+    color: #666666;
+}
+
+.entry-fee strong {
+    font-size: 17px;
+
+    font-weight: 900;
+
+    color: #00a854;
+}
+
+
+/* =========================
    UTRKA
    ========================= */
 
 .race-card {
-    min-height: 400px;
+    min-height: 430px;
 }
 
 .race-details {
@@ -377,6 +413,32 @@ body {
     line-height: 1.4;
 
     color: #555555;
+}
+
+
+/* =========================
+   ORGANIZATORI
+   ========================= */
+
+.organizers-section {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 30px 0 80px;
+
+    text-align: center;
+
+    border-top: 1px solid #eeeeee;
+}
+
+.organizers-section h2 {
+    font-size: clamp(28px, 5vw, 48px);
+
+    font-weight: 900;
+
+    letter-spacing: -1px;
 }
 
 
@@ -450,7 +512,7 @@ body {
     }
 
     .race-card {
-        min-height: 430px;
+        min-height: 460px;
     }
 
     .race-details {
@@ -459,6 +521,10 @@ body {
 
     .race-details span {
         font-size: 14px;
+    }
+
+    .organizers-section {
+        padding-bottom: 60px;
     }
 
 }
