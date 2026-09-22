@@ -73,11 +73,6 @@ body {
     margin-bottom: 12px;
 }
 
-
-/* =========================
-   ORGANIZATORI
-   ========================= */
-
 .hero-organizer {
     display: block;
 
@@ -321,36 +316,23 @@ body {
     max-width: 300px;
 }
 
-.sport-card > strong {
-    margin-top: auto;
-
-    padding-top: 25px;
-
-    font-size: 13px;
-
-    letter-spacing: 1px;
-}
-
 
 /* =========================
    VRIJEME POČETKA
    ========================= */
 
-.sport-time {
-    margin-top: 20px;
+.start-time {
+    margin-top: 16px;
 
-    padding-top: 16px;
-
-    border-top: 1px solid #d8d8d8;
-
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    align-items: flex-start;
 
-    gap: 4px;
+    gap: 3px;
 }
 
-.sport-time span {
-    font-size: 11px;
+.start-time span {
+    font-size: 10px;
 
     font-weight: 800;
 
@@ -359,12 +341,33 @@ body {
     color: #666666;
 }
 
-.sport-time strong {
-    font-size: 18px;
+.start-time strong {
+    background: #00d26a;
+
+    padding: 6px 10px;
+
+    border-radius: 5px;
+
+    font-size: 15px;
 
     font-weight: 900;
 
     color: #111111;
+}
+
+
+/* =========================
+   IGRAČI
+   ========================= */
+
+.players {
+    margin-top: auto;
+
+    padding-top: 25px;
+
+    font-size: 13px;
+
+    letter-spacing: 1px;
 }
 
 
@@ -409,13 +412,11 @@ body {
    ========================= */
 
 .race-card {
-    min-height: 430px;
+    min-height: 470px;
 }
 
 .race-details {
     margin-top: 20px;
-
-    padding-top: 5px;
 
     display: flex;
     flex-direction: column;
@@ -516,11 +517,11 @@ body {
     }
 
     .sport-card {
-        min-height: 240px;
+        min-height: 260px;
     }
 
     .race-card {
-        min-height: 460px;
+        min-height: 500px;
     }
 
     .race-details {
@@ -529,6 +530,10 @@ body {
 
     .race-details span {
         font-size: 14px;
+    }
+
+    .start-time strong {
+        font-size: 15px;
     }
 
 }
