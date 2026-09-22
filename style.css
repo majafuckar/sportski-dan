@@ -75,27 +75,18 @@ body {
 
 
 /* =========================
-   RAZRED
+   ORGANIZATORI
    ========================= */
 
-.hero-class {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.hero-organizer {
+    margin-bottom: 20px;
 
-    background: #111111;
-    color: #ffffff;
-
-    padding: 7px 14px;
-
-    border-radius: 50px;
-
-    font-size: 14px;
-    font-weight: 900;
+    font-size: 13px;
+    font-weight: 800;
 
     letter-spacing: 1.5px;
 
-    margin-bottom: 20px;
+    color: #666666;
 }
 
 
@@ -417,32 +408,6 @@ body {
 
 
 /* =========================
-   ORGANIZATORI
-   ========================= */
-
-.organizers-section {
-    width: 90%;
-    max-width: 1100px;
-
-    margin: 0 auto;
-
-    padding: 30px 0 80px;
-
-    text-align: center;
-
-    border-top: 1px solid #eeeeee;
-}
-
-.organizers-section h2 {
-    font-size: clamp(28px, 5vw, 48px);
-
-    font-weight: 900;
-
-    letter-spacing: -1px;
-}
-
-
-/* =========================
    MOBITEL
    ========================= */
 
@@ -466,10 +431,10 @@ body {
         margin-bottom: 10px;
     }
 
-    .hero-class {
-        font-size: 13px;
+    .hero-organizer {
+        font-size: 12px;
 
-        padding: 6px 13px;
+        letter-spacing: 1px;
 
         margin-bottom: 18px;
     }
@@ -521,10 +486,6 @@ body {
 
     .race-details span {
         font-size: 14px;
-    }
-
-    .organizers-section {
-        padding-bottom: 60px;
     }
 
 }
