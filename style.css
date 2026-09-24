@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,10 +10,7 @@ body {
     color: #111111;
 }
 
-
-/* =========================
-   NAVIGACIJA
-   ========================= */
+/* NAVIGACIJA */
 
 .navbar {
     width: 100%;
@@ -47,10 +43,7 @@ body {
     font-weight: 700;
 }
 
-
-/* =========================
-   HERO
-   ========================= */
+/* HERO */
 
 .hero {
     min-height: calc(100vh - 70px);
@@ -86,10 +79,7 @@ body {
     color: #111111;
 }
 
-
-/* =========================
-   NASLOV
-   ========================= */
+/* NASLOV */
 
 .hero h1 {
     font-size: clamp(48px, 10vw, 110px);
@@ -103,10 +93,7 @@ body {
     max-width: 1000px;
 }
 
-
-/* =========================
-   SLOGAN
-   ========================= */
+/* SLOGAN */
 
 .hero-slogan {
     margin-top: 18px;
@@ -120,10 +107,7 @@ body {
     color: #00a854;
 }
 
-
-/* =========================
-   DATUM I SPORTOVI
-   ========================= */
+/* DATUM I SPORTOVI */
 
 .hero-info {
     margin-top: 28px;
@@ -140,10 +124,7 @@ body {
     color: #555555;
 }
 
-
-/* =========================
-   GLAVNI GUMB
-   ========================= */
+/* GLAVNI GUMB */
 
 .main-button {
     margin-top: 35px;
@@ -169,10 +150,7 @@ body {
     transform: translateY(-2px);
 }
 
-
-/* =========================
-   BRZE INFORMACIJE
-   ========================= */
+/* BRZE INFORMACIJE */
 
 .info-section {
     width: 90%;
@@ -218,10 +196,7 @@ body {
     font-weight: 800;
 }
 
-
-/* =========================
-   STARTNI PAKETI
-   ========================= */
+/* STARTNI PAKETI */
 
 .package-notice {
     width: 90%;
@@ -283,10 +258,7 @@ body {
     font-weight: 900;
 }
 
-
-/* =========================
-   SPORTOVI
-   ========================= */
+/* SPORTOVI */
 
 .sports-section {
     width: 90%;
@@ -323,10 +295,7 @@ body {
     letter-spacing: -2px;
 }
 
-
-/* =========================
-   KARTICE SPORTOVA
-   ========================= */
+/* KARTICE SPORTOVA */
 
 .sports-grid {
     display: grid;
@@ -381,10 +350,7 @@ body {
     max-width: 300px;
 }
 
-
-/* =========================
-   VRIJEME POČETKA
-   ========================= */
+/* VRIJEME POČETKA */
 
 .start-time {
     margin-top: 16px;
@@ -420,10 +386,7 @@ body {
     color: #111111;
 }
 
-
-/* =========================
-   IGRAČI
-   ========================= */
+/* IGRAČI */
 
 .players {
     margin-top: auto;
@@ -435,10 +398,7 @@ body {
     letter-spacing: 1px;
 }
 
-
-/* =========================
-   KOTIZACIJA
-   ========================= */
+/* KOTIZACIJA */
 
 .entry-fee {
     margin-top: 16px;
@@ -471,10 +431,7 @@ body {
     color: #00a854;
 }
 
-
-/* =========================
-   UTRKA
-   ========================= */
+/* UTRKA */
 
 .race-card {
     min-height: 470px;
@@ -510,10 +467,7 @@ body {
     color: #555555;
 }
 
-
-/* =========================
-   MOBITEL
-   ========================= */
+/* MOBITEL */
 
 @media (max-width: 700px) {
 
@@ -620,6 +574,4 @@ body {
     .start-time strong {
         font-size: 15px;
     }
-
 }
-
