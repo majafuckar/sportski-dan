@@ -10,6 +10,7 @@ body {
     color: #111111;
 }
 
+
 /* NAVIGACIJA */
 
 .navbar {
@@ -42,6 +43,7 @@ body {
     font-size: 14px;
     font-weight: 700;
 }
+
 
 /* HERO */
 
@@ -79,8 +81,6 @@ body {
     color: #111111;
 }
 
-/* NASLOV */
-
 .hero h1 {
     font-size: clamp(48px, 10vw, 110px);
 
@@ -93,8 +93,6 @@ body {
     max-width: 1000px;
 }
 
-/* SLOGAN */
-
 .hero-slogan {
     margin-top: 18px;
 
@@ -106,8 +104,6 @@ body {
 
     color: #00a854;
 }
-
-/* DATUM I SPORTOVI */
 
 .hero-info {
     margin-top: 28px;
@@ -123,6 +119,7 @@ body {
 
     color: #555555;
 }
+
 
 /* GLAVNI GUMB */
 
@@ -149,6 +146,7 @@ body {
 .main-button:hover {
     transform: translateY(-2px);
 }
+
 
 /* BRZE INFORMACIJE */
 
@@ -196,69 +194,8 @@ body {
     font-weight: 800;
 }
 
-/* STARTNI PAKETI */
 
-.package-notice {
-    width: 90%;
-    max-width: 800px;
-
-    margin: 0 auto;
-
-    padding: 0 0 20px;
-}
-
-.package-box {
-    background: #f3f3f3;
-
-    border-radius: 12px;
-
-    padding: 28px 35px;
-
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-
-    gap: 8px;
-}
-
-.package-label {
-    font-size: 11px;
-
-    font-weight: 800;
-
-    letter-spacing: 2px;
-
-    color: #666666;
-}
-
-.package-box h2 {
-    font-size: 28px;
-
-    font-weight: 900;
-
-    letter-spacing: -0.5px;
-}
-
-.package-box p {
-    font-size: 15px;
-
-    line-height: 1.5;
-
-    color: #555555;
-
-    max-width: 600px;
-}
-
-.package-box p strong {
-    color: #111111;
-
-    font-weight: 900;
-}
-
-/* SPORTOVI */
+/* SEKCIJE */
 
 .sports-section {
     width: 90%;
@@ -295,7 +232,8 @@ body {
     letter-spacing: -2px;
 }
 
-/* KARTICE SPORTOVA */
+
+/* KARTICE */
 
 .sports-grid {
     display: grid;
@@ -350,6 +288,7 @@ body {
     max-width: 300px;
 }
 
+
 /* VRIJEME POČETKA */
 
 .start-time {
@@ -386,6 +325,7 @@ body {
     color: #111111;
 }
 
+
 /* IGRAČI */
 
 .players {
@@ -397,6 +337,7 @@ body {
 
     letter-spacing: 1px;
 }
+
 
 /* KOTIZACIJA */
 
@@ -430,6 +371,7 @@ body {
 
     color: #00a854;
 }
+
 
 /* UTRKA */
 
@@ -466,6 +408,19 @@ body {
 
     color: #555555;
 }
+
+
+/* VIŠE OD SPORTA */
+
+.extras-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.extras-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 
 /* MOBITEL */
 
@@ -525,33 +480,15 @@ body {
         grid-template-columns: 1fr;
 
         padding-top: 20px;
-
         padding-bottom: 40px;
-    }
-
-    .package-notice {
-        width: 90%;
-
-        padding-bottom: 10px;
-    }
-
-    .package-box {
-        padding: 24px 20px;
-    }
-
-    .package-box h2 {
-        font-size: 23px;
-    }
-
-    .package-box p {
-        font-size: 14px;
     }
 
     .sports-section {
         padding: 60px 0;
     }
 
-    .sports-grid {
+    .sports-grid,
+    .extras-grid {
         grid-template-columns: 1fr;
     }
 
@@ -573,5 +510,10 @@ body {
 
     .start-time strong {
         font-size: 15px;
+    }
+
+    .extras-section {
+        padding-top: 30px;
+        padding-bottom: 70px;
     }
 }
