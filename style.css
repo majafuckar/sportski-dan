@@ -376,7 +376,7 @@ body {
 /* UTRKA */
 
 .race-card {
-    min-height: 470px;
+    min-height: 540px;
 }
 
 .race-details {
@@ -497,7 +497,7 @@ body {
     }
 
     .race-card {
-        min-height: 500px;
+        min-height: 570px;
     }
 
     .race-details {
